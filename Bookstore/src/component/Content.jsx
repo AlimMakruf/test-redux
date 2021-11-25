@@ -29,7 +29,7 @@ function Content() {
                 <div className="button" onClick={openForm}>Add +</div>
             </div>
             
-            {form && <Addbook/>}
+            {form && <Addbook closeForm={closeForm}/>}
 
             <ul>
                 {state.books.state && state.books.state.map((res, index) => 
