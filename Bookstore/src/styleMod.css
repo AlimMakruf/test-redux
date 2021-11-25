@@ -1,0 +1,232 @@
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ---------------------- NAVBAR AREA ----------------------------------- */
+.navbar {
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: red;
+    padding: 0.8rem;
+    box-shadow: 1px 5px 12px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 5px 12px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 5px 12px 0px rgba(0,0,0,0.1); 
+}
+
+/* ---------------------- NAVBAR AREA ----------------------------------- */
+
+/* ---------------------- HEADER AREA ----------------------------------- */
+
+.header {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: pink;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: magenta;
+}
+
+/* ---------------------- HEADER AREA ----------------------------------- */
+
+/* ---------------------- ADD BOOK AREA ----------------------------------- */
+
+.form-addBook {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding-bottom: 1rem;
+}
+
+.add-book {
+    /* line */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+}
+
+.form-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.close-button {
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    font-weight: 400;
+    font-size: larger;
+    cursor: pointer;
+}
+
+form input {
+    padding: 0.8rem;
+    border: none;
+    background-color: #eeeeee;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+} 
+
+form label {
+    font-size: 15px;
+    margin-left: 2rem;
+}
+
+form p {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+}
+
+form select {
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 12px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    color: #333333;
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 2px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: right 10px top 50%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50"><polygon points="0,0 100,0 50,50" style="fill:%23666666;"/></svg>');
+}
+
+form select:hover,
+form select:focus {
+    outline: none;
+    border: 1px solid #bbb;
+}
+
+.submit-button {
+    cursor: pointer;
+    background-color: blue;
+}
+/* ---------------------- ADD BOOK AREA ----------------------------------- */
+
+/* ---------------------- CARD AREA ----------------------------------- */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 1px 1px 18px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 1px 1px 18px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 1px 1px 18px 0px rgba(0,0,0,0.28);
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.title h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.2rem;
+}
+
+.detail div div h4 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.detail div div span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.detail div {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+}
+
+.detail-NumberPage div{
+    width: max-content;
+}
+
+.image {
+    height: 10%;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.image img {
+    width: 90%;
+    height: 90%;
+}
+
+/* ---------------------- CARD AREA ----------------------------------- */
+

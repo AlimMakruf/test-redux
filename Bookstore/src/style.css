@@ -1,0 +1,189 @@
+.body {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.form-addBook {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+    padding-right: 24rem;
+    border: none;
+    background-color: #eeeeee;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+} 
+
+form label {
+    font-size: 15px;
+    margin-left: 2rem;
+}
+
+form p {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+}
+
+form select {
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 12px;
+    padding-right: 20rem;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    color: #333333;
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 2px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: right 10px top 50%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50"><polygon points="0,0 100,0 50,50" style="fill:%23666666;"/></svg>');
+}
+
+form select:hover,
+form select:focus {
+    outline: none;
+    border: 1px solid #bbb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: white;
+    box-shadow: 1px 5px 12px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 5px 12px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 5px 12px 0px rgba(0,0,0,0.1); 
+}
+.navbar span {
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: pink;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: magenta;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 1px 1px 18px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 1px 1px 18px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 1px 1px 18px 0px rgba(0,0,0,0.28);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.title h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.2rem;
+}
+
+.detail div div h4 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.detail div div span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.detail div {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+}
+
+.detail-NumberPage div{
+    width: max-content;
+}
+
+
+.image {
+    height: 10%;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.image img {
+    width: 90%;
+    height: 90%;
+}
